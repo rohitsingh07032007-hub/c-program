@@ -1,20 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int num1, num2;
-    printf("enter two number: ");
-    scanf("%d %d",&num1,num2);
-    if(num1==num2)
+    int x=65
+    int y=67;
+    if(x,y<=70)
     {
-        printf("Result: %d = %d",num1,num2);
-    }
-    else if(num1>num2)
-    {
-        printf("Result: %d < %d",num1,num2);
+        printf("order confirmed\n Thank YOU");
     }
     else
     {
-        printf("Result: %d < %d",num1,num2);
+        printf("Order Limit reached\n Thank YOU");
     }
     return 0;
 }
